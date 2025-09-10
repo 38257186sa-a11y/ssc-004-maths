@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Algebra Set 1 – Linear Equations</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1>Algebra Set 1 – Linear Equations</h1>
+  <div class="quiz-container">
+    <div class="question">
+      <p>Q1: Solve for x: 2x + 5 = 15</p>
+      <label><input type="radio" name="q1" value="false"> x = 4</label><br>
+      <label><input type="radio" name="q1" value="true"> x = 5</label><br>
+      <label><input type="radio" name="q1" value="false"> x = 10</label><br>
+      <p class="result"></p>
+    </div>
+
+    <div class="question">
+      <p>Q2: If 3x = 12, then x = ?</p>
+      <label><input type="radio" name="q2" value="true"> 4</label><br>
+      <label><input type="radio" name="q2" value="false"> 3</label><br>
+      <label><input type="radio" name="q2" value="false"> 6</label><br>
+      <p class="result"></p>
+    </div>
+
+    <button onclick="checkAnswers()">Submit</button>
+    <p id="score"></p>
+  </div>
+</body>
+</html>
